@@ -48,11 +48,13 @@ public abstract class Product {
     public abstract String category();
 
     public String toString() {
-        return "Titel: " + title +
+        return "Kategori: " + category() +
+                " " + "Titel: " + title +
                 " " + "Pris: " + price +
                 " " + "Beskrivning: " + description +
                 " " + "Artikel: " + articleNumber;
     }
 }
+
 
 
