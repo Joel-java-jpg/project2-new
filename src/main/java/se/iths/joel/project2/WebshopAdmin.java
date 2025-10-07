@@ -49,7 +49,7 @@ public class WebshopAdmin {
 
                     if (!found) {
                         System.out.println("ingen produkt med det artikelnumret hittades.");
-                        methods.pauseHelper(); //test
+                        methods.pauseHelper();
                     }
                     break;
 
